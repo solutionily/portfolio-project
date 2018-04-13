@@ -26,7 +26,7 @@
           <div class="navbar-nav ml-auto">
             <a class="nav-item nav-link" href="#">Twitter</a>
             <a class="nav-item nav-link" href="#">Resume</a>
-            <a class="nav-item nav-link" href="#">Blog</a>
+            <a class="nav-item nav-link active" href="#">Blog</a>
 
           </div>
         </div>
@@ -34,37 +34,13 @@
     </header>
 
     <main role="main">
-
-      <section class="jumbotron text-center">
-        <div class="container">
-          <h1 class="jumbotron-heading">Hi, I'm FD.</h1>
-          <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
-          <p>
-            <a href="mailto:solutionily@gmail.com" class="btn btn-primary my-2">Get In Touch</a>
-          </p>
-        </div>
-      </section>
-
-
-    <div class="album py-5 bg-light">
       <div class="container">
 
-        <div class="row">
-
-          {% for job in jobs.all %}
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow">
-              <img class="card-img-top" src="{{ job.image.url }}" />
-              <div class="card-body">
-                <p class="card-text">{{ job.summery }}</p>
-              </div>
-            </div>
-          </div>
-          {% endfor %}
-
-
-        </div>
-      </div>
+      <h1 class="text-center pt-3">Welcome To My Blog</h1>
+      <br />
+      <br />
+      <h2>Latest Posts</h2>
+      <hr />
     </div>
 
 </main>
